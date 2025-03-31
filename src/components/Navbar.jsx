@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import menuIcon from '../assets/menu.png';
 import crossIcon from '../assets/cross.png';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
 
@@ -19,11 +21,11 @@ const Navbar = () => {
       {/* Desktop Navigation*/}
       <div className="links md:flex hidden justify-between items-center">
         <ul className="md:flex  justify-between ">
-            <li className="pr-3 text-blue-600 hover:text-blue-600 transition-all duration-700">Home</li>
-            <li className="pr-3 hover:text-blue-600 transition-all duration-700 ">About US</li>
-            <li className="pr-3 hover:text-blue-600 transition-all duration-700">Our Products</li>
-            <li className="pr-3 hover:text-blue-600 transition-all duration-700">FAQs</li>
-            <li className="pr-3 hover:text-blue-600 transition-all duration-700">Contact Us</li>
+          <Link to="/"> <li className="pr-3 text-blue-600 hover:text-blue-600 transition-all duration-700">Home</li> </Link> 
+           <Link to="/about"> <li className="pr-3 hover:text-blue-600 transition-all duration-700 ">About US</li> </Link>
+          <Link to="/product" > <li className="pr-3 hover:text-blue-600 transition-all duration-700">Our Products</li> </Link>
+           <Link to="/quest"> <li className="pr-3 hover:text-blue-600 transition-all duration-700">FAQs</li></Link>
+           <Link to="/contact"> <li className="pr-3 hover:text-blue-600 transition-all duration-700">Contact Us</li></Link>
         </ul>
         <button className='bg-blue-600 rounded-sm hover:bg-blue-700 transition-all duration-700 px-3 py-1 text-white font-semibold cursor-pointer'>SignUp</button>
       </div>
@@ -43,11 +45,11 @@ const Navbar = () => {
                   role='navigation' 
                   aria-hidden={!nav}>
         {/* Mobile Logo */}
-        <li className="pr-3 text-blue-600 hover:text-blue-600 transition-all duration-700">Home</li>
-            <li className="py-2 text-white transition-all duration-700 ">About US</li>
-            <li className="py-2 text-white transition-all duration-700">Our Products</li>
-            <li className="py-2 text-white transition-all duration-700">FAQs</li>
-            <li className="py-2 text-white transition-all duration-700">Contact Us</li>
+        <Link to="/"><li className="py-2 pt-3 text-white transition-all duration-700">Home</li></Link>
+        <Link to="/about"><li className="py-2 text-white transition-all duration-700 ">About US</li> </Link>
+        <Link to="/product"><li className="py-2 text-white transition-all duration-700">Our Products</li></Link>
+        <Link to="/quest" ><li className="py-2 text-white transition-all duration-700">FAQs</li></Link>
+        <Link to="/contact" ><li className="py-2 text-white transition-all duration-700">Contact Us</li></Link>
             <button className='bg-white rounded-sm my-2 transition-all duration-700 px-5 py-2 text-blue-600 font-semibold cursor-pointer'>SignUp</button>
             </ul>
 

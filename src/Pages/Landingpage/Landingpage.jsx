@@ -11,11 +11,11 @@ const Landingpage = () => {
           <button className="bg-blue-600 rounded-sm my-5 hover:bg-blue-700 transition-all duration-700 px-3 py-1 text-white font-semibold cursor-pointer">
             Water is Nothing But Life
           </button>
-          <div className="my-3">
+          <div className="md:my-3">
             <h1 className='text-4xl md:text-start md:text-7xl font-bold '>Mineral Water</h1>
             <h1 className='text-4xl md:text-7xl font-bold '>With Great Taste</h1>
           </div>
-          <p className='py-5 px-2.5 text-sm md:text-start text-blue-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae maxime iure nesciunt odio? Deserunt mollitia sit sint!</p>
+          <p className='md:py-5 py-3 px-2.5 text-sm md:text-start text-blue-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae maxime iure nesciunt odio? Deserunt mollitia sit sint!</p>
           <button className='my-5 bg-blue-600 rounded-sm hover:bg-blue-700 transition-all duration-700 px-3 py-1 text-white font-semibold cursor-pointer'>
             Read More
           </button>
@@ -58,7 +58,7 @@ const Landingpage = () => {
         <h1 className="text-blue-600 font-bold text-2xl text-center">OUR PRODUCTS</h1>
         <p className="text-center text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         <div className="cards py-10 flex flex-wrap justify-between">
-                <div className="relative flex flex-col text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl my-2 w-96">
+                <div className="relative flex flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl my-2 w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/sachet.jpg"
@@ -87,7 +87,7 @@ const Landingpage = () => {
                     </div>      
                 </div>
 
-                <div className="relative flex my-2 flex-col text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative flex my-2 flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/blt.png"
@@ -116,7 +116,7 @@ const Landingpage = () => {
                     </div>      
                 </div>
 
-                <div className="relative my-2 flex flex-col text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative my-2 flex flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/download.jpg"
@@ -145,7 +145,7 @@ const Landingpage = () => {
                     </div>      
                 </div>
 
-                <div className="relative my-2 flex flex-col text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative my-2 flex flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/sach.jpg"
@@ -174,7 +174,7 @@ const Landingpage = () => {
                     </div>      
                 </div>
 
-                <div className="relative my-2 flex flex-col text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative my-2 flex flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/Hielo.jpg"
@@ -203,7 +203,7 @@ const Landingpage = () => {
                     </div>      
                 </div>
 
-                <div className="relative my-2 flex flex-col text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative my-2 flex flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/cont.jpg"
