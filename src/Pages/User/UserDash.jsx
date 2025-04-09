@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Sales = () => {
+const UserDash = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Sales = () => {
   )
 }
 
-export default Sales
+export default UserDash

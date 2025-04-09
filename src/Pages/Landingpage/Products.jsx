@@ -27,7 +27,7 @@ const Products = () => {
 
 
       <div className="cards py-10 px-10 flex flex-wrap justify-between">
-                <div className="relative flex flex-col text-gray-700 transition-all duration-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl my-2 w-96">
+                <div className="relative hover:scale-105 flex flex-col text-gray-700 transition-all duration-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl my-2 w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/sachet.jpg"
@@ -56,7 +56,7 @@ const Products = () => {
                     </div>      
                 </div>
 
-                <div className="relative flex my-2 flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative hover:scale-105 flex my-2 flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/blt.png"
@@ -85,7 +85,7 @@ const Products = () => {
                     </div>      
                 </div>
 
-                <div className="relative my-2 flex flex-col text-gray-700 transition-all duration-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative hover:scale-105 my-2 flex flex-col text-gray-700 transition-all duration-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/download.jpg"
@@ -114,7 +114,7 @@ const Products = () => {
                     </div>      
                 </div>
 
-                <div className="relative my-2 flex flex-col text-gray-700 transition-all duration-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative hover:scale-105 my-2 flex flex-col text-gray-700 transition-all duration-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/sach.jpg"
@@ -143,7 +143,7 @@ const Products = () => {
                     </div>      
                 </div>
 
-                <div className="relative my-2 flex flex-col text-gray-700 transition-all duration-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative hover:scale-105 my-2 flex flex-col text-gray-700 transition-all duration-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/Hielo.jpg"
@@ -172,7 +172,7 @@ const Products = () => {
                     </div>      
                 </div>
 
-                <div className="relative my-2 flex flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
+                <div className="relative hover:scale-105 my-2 flex flex-col transition-all duration-700 text-gray-700 bg-white hover:shadow-2xl shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-800 bg-white bg-clip-border rounded-xl h-60">
                         <img
                             src="/cont.jpg"
